@@ -1,0 +1,201 @@
+
+insert some GALE segments to get dialect class labels for them
+
+You have a file that contains the URLs you want to download?  Use
+           the -i switch:
+
+                   wget -i <file>
+
+---------------------
+sanity check:
+
+REP:
+
+<doc[^\n]+>\n
+
+  with nothing
+
+REP:
+
+</doc>\n
+
+  with nothing
+
+REP:
+
+ </seg>
+
+  with nothing
+
+REP:
+
+<seg id="[^>]+"> 
+(note single space at the end)
+
+  with nothing
+
+
+now, there should be very little English left (search for [a-z])
+---------------------
+
+
+-----------------------------------------------------------------------------------------------
+
+alriyadh: (all comments shown at once)
+http://www.alriyadh.com/2010/09/29/article563475.html (or simply http://www.alriyadh.com/article563475.html)
+http://www.alriyadh.com/newspaper/comments/563475/1
+
+http://www.alriyadh.com/2010/10/06/article565587.html
+http://www.alriyadh.com/newspaper/comments/565587/1
+
+http://www.alriyadh.com/2010/10/06/article565513.html
+http://www.alriyadh.com/newspaper/comments/565513/1
+
+http://www.alriyadh.com/2010/10/06/article565558.html
+http://www.alriyadh.com/newspaper/comments/565558/1
+
+http://www.alriyadh.com/2010/10/10/article566639.html
+http://www.alriyadh.com/newspaper/comments/566639/1
+
+http://www.alriyadh.com/2010/10/10/article566647.html
+http://www.alriyadh.com/newspaper/comments/566647/1
+
+520000: 26/04/2010
+565000: 04/10/2010
+
+wget -w 0.1 --random-wait -nv -i url-list_alriyadh_520k-530k.txt -a alriyadh.520k-530k.wget.log &
+wget -w 0.1 --random-wait -nv -i url-list_alriyadh_530k-540k.txt -a alriyadh.530k-540k.wget.log &
+wget -w 0.1 --random-wait -nv -i url-list_alriyadh_540k-550k.txt -a alriyadh.540k-550k.wget.log &
+wget -w 0.1 --random-wait -nv -i url-list_alriyadh_550k-560k.txt -a alriyadh.550k-560k.wget.log &
+wget -w 0.1 --random-wait -nv -i url-list_alriyadh_560k-565k.txt -a alriyadh.560k-560k.wget.log &
+
+alriyadh was always causing problems...the following seemed
+to work without issues when running alone, and no other wget
+jobs on other machines: (but note that 50k and -w 1 were not
+opimized, and less conservative values might still work...this
+was really slow, taking 2 hours to get 1000 pages)
+
+wget --limit-rate=50k -w 1 --random-wait -nv -i 553k.txt -a 553k.log &
+
+trying the following at the same time (but different machines):
+
+wget --limit-rate=75k -w 0.5 --random-wait -nv -i 554k.txt -a 554k.log &
+wget --limit-rate=75k -w 0.5 --random-wait -nv -i 558k.txt -a 558k.log &
+wget --limit-rate=75k -w 0.5 --random-wait -nv -i 563k.txt -a 563k.log &
+
+...takes about 20 minutes!.
+
+-----------------------------------------------------------------------------------------------
+
+alghad: (all comments within the article itself)
+http://www.alghad.com/?news=534193
+http://www.alghad.com/?news=534179
+http://www.alghad.com/?news=534142
+http://www.alghad.com/?news=533980
+
+500000: 22/04/2010
+534000: 04/10/2010
+
+NOTE: Encoding is "Arabic - Windows 1256"
+
+look for this to find start of comment section:
+
+<br><span class="centerTitles" style="color:#FF0000">
+
+then look for   align="justify"   per comment
+
+then look for   </div></td>   for the end of the comment section
+
+
+
+
+wget -w 0.1 --random-wait --spider -nv -i url-list_alghad_500k-510k.txt -a alghad.500k-510k.spider.log &
+wget -w 0.1 --random-wait --spider -nv -i url-list_alghad_510k-520k.txt -a alghad.510k-520k.spider.log &
+wget -w 0.1 --random-wait --spider -nv -i url-list_alghad_520k-530k.txt -a alghad.520k-530k.spider.log &
+wget -w 0.1 --random-wait --spider -nv -i url-list_alghad_530k-534k.txt -a alghad.530k-534k.spider.log &
+
+
+wget -nv -i url-list_alghad_500k-510k.txt -a alghad.500k-510k.wget.log &
+wget -nv -i url-list_alghad_510k-520k.txt -a alghad.510k-520k.wget.log &
+wget -nv -i url-list_alghad_520k-530k.txt -a alghad.520k-530k.wget.log &
+wget -nv -i url-list_alghad_530k-534k.txt -a alghad.530k-534k.wget.log &
+
+
+REP:
+
+ http://www.alghad.com/\?news=[0-9][0-9][0-9][0-9][0-9][0-9] 
+(notice single space at end)
+with:
+
+###\0###
+
+REP: (***till zero replacements***)
+
+\n[^\n#]+\n
+
+with
+
+\n
+
+REP:
+
+20..-..-.. ..:..:.. URL:### 
+(notice single space at end)
+with nothing
+
+REP:
+
+ ###200 OK
+with nothing
+
+
+-----------------------------------------------------------------------------------------------
+
+alyom alsabe: (pagination: 25 comments/page)
+http://www.youm7.com/News.asp?NewsID=278997
+http://www.youm7.com/Includes/NewsComments.asp?NewsID=278997&page=1
+http://www.youm7.com/Includes/NewsComments.asp?NewsID=278997&page=2
+
+http://www.youm7.com/News.asp?NewsID=288596
+http://www.youm7.com/Includes/NewsComments.asp?NewsID=288596&page=1
+http://www.youm7.com/Includes/NewsComments.asp?NewsID=288596&page=2
+http://www.youm7.com/Includes/NewsComments.asp?NewsID=288596&page=3
+http://www.youm7.com/Includes/NewsComments.asp?NewsID=288596&page=4
+
+210000: 04/04/2010
+285000: 01/10/2010
+
+wget -nv -i url-list_alyoumalsabe_210k-220k.txt -a alyoumalsabe.210k-220k.wget.log &
+wget -nv -i url-list_alyoumalsabe_220k-230k.txt -a alyoumalsabe.220k-230k.wget.log &
+wget -nv -i url-list_alyoumalsabe_230k-240k.txt -a alyoumalsabe.230k-240k.wget.log &
+wget -nv -i url-list_alyoumalsabe_240k-250k.txt -a alyoumalsabe.240k-250k.wget.log &
+wget -nv -i url-list_alyoumalsabe_250k-260k.txt -a alyoumalsabe.250k-260k.wget.log &
+wget -nv -i url-list_alyoumalsabe_260k-270k.txt -a alyoumalsabe.260k-270k.wget.log &
+
+wget -nv -i url-list_youm7_210k-285k_px.txt -a youm7.210k-285k_px.wget.log &
+
+-----------------------------------------------------------------------------------------------
+
+aljazeera: (pagination: 10 comments/page)
+http://www.aljazeera.net/NR/exeres/D2C7BAA5-47EF-4C16-ABEE-C556EDA146E5.htm
+http://www.aljazeera.net/portal/Aspx/GetPaginationFeedBack.aspx?CurrentGuid=D2C7BAA5-47EF-4C16-ABEE-C556EDA146E5&PageNo=1
+http://www.aljazeera.net/portal/Aspx/GetPaginationFeedBack.aspx?CurrentGuid=D2C7BAA5-47EF-4C16-ABEE-C556EDA146E5&PageNo=2
+http://www.aljazeera.net/portal/Aspx/GetPaginationFeedBack.aspx?CurrentGuid=D2C7BAA5-47EF-4C16-ABEE-C556EDA146E5&PageNo=3
+http://www.aljazeera.net/portal/Aspx/GetPaginationFeedBack.aspx?CurrentGuid=D2C7BAA5-47EF-4C16-ABEE-C556EDA146E5&PageNo=4
+
+-----------------------------------------------------------------------------------------------
+
+
+
+
+movie scripts
+7iber.com
+blogs
+
+
+
+
+
+
+
+

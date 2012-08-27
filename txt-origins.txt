@@ -1,0 +1,96 @@
+Mauritania	http://www.alhadath.info/
+Mauritania	http://www.saharamedias.net/smedia/index.php
+Algeria	http://www.elwaha-dz.com/
+Algeria	http://www.sawt-alahrar.net/online/index.php
+Algeria	http://www.ennaharonline.com/ar/
+Algeria	http://www.al-fadjr.com/ar/
+Algeria	http://www.elkhabar.com/ar/index.php
+Algeria	http://www.echoroukonline.com/ara/
+Algeria	http://www.elheddaf.com/
+Algeria	http://www.el-massa.com/ar/
+Algeria	http://www1.albassair.org/index.php
+Algeria	http://www.echibek.net/ar/
+Algeria	http://www.akhersaa-dz.com/
+Tunisia	http://www.assabah.com.tn/
+Tunisia	http://www.essahafa.info.tn/
+Libya	http://www.attamaddon.com/_NewsSearch.php?&cAction=Search&IsFront=1
+Libya	http://www.libya-alyoum.com/news/index.php
+Libya	http://www.alshames.com/
+Libya	http://www.aljamahiria.com/
+Libya	http://issuu.com/libya17feb/docs/_____?mode=embed&layout=http%3A//skin.issuu.com/v/light/layout.xml
+Libya	http://www.azzahfalakhder.com/ar/
+Libya	http://www.alfajraljadeed.com/
+Egypt	http://www.alwafd.org/#axzz1OomYobDX
+Egypt	http://www.ahram.org.eg/
+Egypt	http://www.algomhuria.net.eg/algomhuria/today/fpage/
+Egypt	http://alshaab.com/
+Egypt	https://www.arabfinance.com/
+Egypt	http://elfagr.org/
+Egypt	http://www.mena.org.eg/
+Egypt	http://www.naseej.com/index1.html
+Egypt	http://www.rosaonline.net/
+Egypt	http://www.wataninet.com/
+Sudan	http://www.rayaam.info/
+Sudan	http://www.midan.net/
+Sudan	http://www.sudanile.com/
+Eritrea	http://www.farajat.net/ar/
+Yemen	http://www.y.net.ye/naba/
+Yemen	http://www.algomhoriah.net/
+Yemen	http://www.14october.com/
+Yemen	http://www.attariq-ye.com/
+Yemen	http://www.al-ayyam.info/
+Yemen	http://26sept.info/start/
+Yemen	http://www.almethaq.net/news/
+Yemen	http://www.alghadyem.net/
+Yemen	http://www.alwahdawi.net/
+Yemen	http://www.alsahwa-yemen.net/arabic/
+Yemen	http://www.akhbaralyom.net/
+Yemen	http://www.al-balagh.net/
+Yemen	http://www.alwasat-ye.net/
+Yemen	http://www.alwahdah.net/
+Yemen	http://www.alahale.net/
+Yemen	http://www.26sep.net/
+Yemen	http://www.althawranew.net/
+Oman	http://www.alwatan.com/
+United Arab Emirates	http://www.albayan.ae/
+United Arab Emirates	http://aljazeera.net/portal
+United Arab Emirates	http://www.emaratalyoum.com/
+United Arab Emirates	http://www.alittihad.ae/
+Qatar	http://www.al-watan.com/
+Qatar	http://www.raya.com/Pages/home.aspx
+Qatar	http://www.alarab.com.qa/
+Saudi Arabia	http://www.okaz.com.sa/new/Issues/20110610/index.htm
+Saudi Arabia	http://www.alwatan.com.sa/Default.aspx?issueno=3906
+Saudi Arabia	http://www.spa.gov.sa/
+Saudi Arabia	http://www.alriyadh.com/
+Saudi Arabia	http://www.al-jazirah.com/
+Saudi Arabia	http://www.alwasatnews.com/
+Saudi Arabia	http://www.akhbar-alkhaleej.com/#!home
+Saudi Arabia	http://www.alayam.com/
+Kuwait	http://alwatan.kuwait.tt/
+Kuwait	http://www.taleea.com/
+Kuwait	http://www.al-seyassah.com/
+Kuwait	http://www.alraimedia.com/Alrai/
+Iraq	http://www.azzaman.com/
+WestBank	http://www.al-ayyam.ps/znews/site/default.aspx?Date=6/10/2011
+WestBank	http://www.alquds.com/
+WestBank	http://www.alhayat-j.com/newsite/index.php
+WestBank	http://www.assennara.net/categories.php?id=1
+Gaza	http://www.samidoon.com/
+Jordan	http://www.irbidnews.com/
+Jordan	http://www.addustour.com/
+Jordan	http://www.hashd-ahali.org.jo/
+Jordan	http://www.alghad.com/
+Jordan	http://www.assabeel.net/
+Jordan	http://www.almajd.net/
+Jordan	http://www.alarabalyawm.net/
+Jordan	http://www.alrai.com/
+Syria	http://www.tishreen.info/
+Lebanon	http://www.annahar.com
+Lebanon	http://www.assafir.com/
+Lebanon	http://www.almustaqbal.com/
+Lebanon	http://www.arabweek.com.lb/
+Lebanon	http://www.alqanat.com/news/
+UK	http://www.alarab.co.uk/	
+India	http://www.alhindelyom.com/
+Australia	http://www.elmassry.com/

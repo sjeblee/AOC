@@ -1,0 +1,28 @@
+(November 25, 2010)
+
+masters5:
+  25966: (terminated)
+D   wget --limit-rate=75k -w 0.5 --random-wait -nv -i list_alriyadh_520k-530k.txt -a alriyadh_520k-530k.wget.log &
+  354: (terminated)
+D   wget --limit-rate=200k -nv -i list_youm7_210k-220k.txt -a youm7_210k-220k.wget.log &
+D   wget --limit-rate=200k -nv -i list_youm7_240k-250k.txt -a youm7_240k-250k.wget.log &
+D   wget --limit-rate=200k -nv -i list_youm7_270k-280k.txt -a youm7_270k-280k.wget.log &
+  17684: (terminated)
+D   wget --limit-rate=75k -w 0.5 --random-wait -nv -i list_alriyadh_550k-560k.txt -a alriyadh_550k-560k.wget.log &
+
+masters6:
+  21117: (terminated)
+D   wget --limit-rate=75k -w 0.5 --random-wait -nv -i list_alriyadh_530k-540k.txt -a alriyadh_530k-540k.wget.log &
+  27983: (terminated)
+D   wget --limit-rate=200k -nv -i list_youm7_220k-230k.txt -a youm7_220k-230k.wget.log &
+D   wget --limit-rate=200k -nv -i list_youm7_250k-260k.txt -a youm7_250k-260k.wget.log &
+D   wget --limit-rate=200k -nv -i list_youm7_280k-285k.txt -a youm7_280k-285k.wget.log &
+  12753: (terminated)
+D   wget --limit-rate=75k -w 0.5 --random-wait -nv -i list_alriyadh_560k-565k.txt -a alriyadh_560k-565k.wget.log &
+
+masters7:
+  26105: (terminated)
+D   wget --limit-rate=75k -w 0.5 --random-wait -nv -i list_alriyadh_540k-550k.txt -a alriyadh_540k-550k.wget.log &
+  2517: (terminated)
+D   wget --limit-rate=200k -nv -i list_youm7_230k-240k.txt -a youm7_230k-240k.wget.log &
+D   wget --limit-rate=200k -nv -i list_youm7_260k-270k.txt -a youm7_260k-270k.wget.log &

@@ -1,0 +1,32 @@
+Arabic Processing
+Commands:
+
+To make article lists:
+
+sed 's,http://www.alriyadh.com/article53,http://www.alriyadh.com/article70,g' list_alriyadh_530k-540k.txt > list_alriyadh_700k-710k.txt
+
+sed 's,http://www.alriyadh.com/article,http://www.alriyadh.com/newspaper/comments/,g' list_alriyadh_730k-740k.txt > temp1.txt
+
+sed 's,$,/1,' temp1.txt > list_comments_alriyadh_730k-740k.txt
+
+sed 's,.html,/1,g' temp1.txt > list_comments_alriyadh_730k-740k.txt 
+
+to get webpages:
+
+wget --limit-rate=200k -w 0.5 --random-wait -nv -i list_alriyadh_700k-710k.txt -a alriyadh_700k-710k.wget.log &
+
+wget --limit-rate=200k -w 0.5 --random-wait -nv -i list_comments_alriyadh_730k-740k.txt -a alriyadh_comments_730k-740k.wget.log &
+
+wget --limit-rate=200k -w 0.5 --random-wait -nv -i list_youm7_670k-680k.txt -a youm7_670k-680k.wget.log &
+
+wget --wait=1 --random-wait --user-agent="Mozilla/5.0 (compatible; Googlebot/2.1;+http://www.google.com/bot.html)" --timeout=5 -robots=off --mirror "http://www.alghad.com/" -l 5 -o alghad-log.txt &
+
+*Downloaded*:
+alriyadh comments 700-740
+alriyadh 700k-740k
+
+Extraction:
+
+- separate out the list files
+java -Xmx1600m ExtractBody alriyadh_articles_640-740 alriyadh_a.xml > EB.alriyadh
+mv emptyFiles.txt emptyFiles.alriyadh_a.txt

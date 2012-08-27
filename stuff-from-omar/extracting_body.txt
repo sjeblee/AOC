@@ -1,0 +1,116 @@
+alghad:
+
+NOTE: Encoding is "Arabic - Windows 1256"
+
+grab title from 3rd line (starts with <title> tag)
+title will have "jareedat alghad - "
+
+to get to the body, skip everything until you find
+<!-- AddThis Button END -->
+
+then for each line, take content between <P> and </P>
+when you reach a line that does start with <P> (even after spaces), you are done
+
+note: the first line usually has a <STRONG>...</STRONG> tag, usually indicating location.
+      other <STRONG> should be preserved as well, but other HTML tags should be discarded
+note: the last line usually has other stuff after the </P> ... they're not needed
+
+
+
+alriyadh #1: (most files; ending in html)
+
+grab title from 59th line (starts with <title> tag)
+title will have "jareedat alriyadh :"
+
+grab date and issue from 154th line
+(couple of lines after line starting with <div id="date")
+
+at some point (278th line) you will encounter
+<div id="article-view">
+
+now start looking for <h2> and <h1> tags
+
+after that look for <p> ... </p> portions of the lines
+(one might contain author info, within <p class="author">)
+
+but you should ignore things that have <span class=quote> (these are quotes)
+
+also ignore content that has <div class="img_title"> because that's a caption for an image
+
+also note that sometimes the line is empty after discarding <p> and </p>
+
+continue to do this until reaching
+<br clear="all" />
+(alternatively, something that contains <!-- article-view -->)
+
+
+alriyadh #2: (some files; not ending in html, renamed to contain "net")
+
+grab title from 41st line (starts with <title> tag)
+title will have "alriyadh net" ... might be empty?
+
+grab date and time from 171st line
+(starts with <div class="date")
+
+at some point (113th line) you will encounter
+<div class="box1 ">
+
+now start looking for <h2> and <h1> tags
+
+then look for an "author" <div> that has location/agency info
+(<div class="author">)
+
+after that look for <p> ... </p> portions of the lines
+
+but you should ignore things that have <span class=quote> (these are quotes)
+
+also ignore content that has <div class="img_title"> because that's a caption for an image
+
+continue to do this until reaching
+<script type="text/javascript">
+
+
+
+
+al-youm al-sabe:
+
+NOTE: Encoding is "Arabic - Windows 1256"
+
+grab title from 9th line (in between <title> and </title> tags on 6th and 12th lines)
+title will have "alyom alsab3"
+
+at some point (271st line) you will encounter
+            <div id="newsContent">
+
+now start looking for <h3> and <h2> tags
+
+grab date and time somewhere in the 275th-280th lines region
+(starts with \\s+ <p class="newsStoryDate">)
+
+if date has year 1899, it's an empty page
+
+there might be a <p class="newsStoryEditor"> for the author
+
+skip several more lines, including:
+
+<!-- AddThis Button END -->
+<!-- sport advertise -->
+<!-- end sport advertise -->
+</div>
+
+then you will see the story in lines ending with <br>
+  the first line will start with <p>
+  the last line might not end in <br>
+  there's also an extra <br> between lines
+  there will eventually be a </p>
+NOTE: in EditPlus, the story seems like it's contained within a single(!) line
+
+other things in html tags should be ignored(?) such as <param...> and <object...>
+(this is likely rare)
+
+this is followed by
+                        </div>
+						<div>
+						<!-- sport ads website -->
+
+...and indicates the end.

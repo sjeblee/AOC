@@ -1,0 +1,31 @@
+rm *class
+javac ExtractComments.java
+
+java -Xmx1600m ExtractComments RAW_comm+art_alghad.500k-534k alghad_c.xml > EC.alghad
+mv emptyFiles.txt emptyFiles.alghad_c.txt
+java -Xmx1600m ExtractComments RAW_comm_alriyadh.520k-565k alriyadh_c.xml > EC.alriyadh
+mv emptyFiles.txt emptyFiles.alriyadh_c.txt
+java -Xmx1600m ExtractComments RAW_comm_youm7.210k-285k youm7_c.xml > EC.youm7
+mv emptyFiles.txt emptyFiles.youm7_c.txt
+
+
+
+rm *class
+javac ExtractBody.java
+
+java -Xmx1600m ExtractBody RAW_comm+art_alghad.500k-534k alghad_a.xml > EB.alghad
+mv emptyFiles.txt emptyFiles.alghad_a.txt
+java -Xmx1600m ExtractBody RAW_art_alriyadh.520k-565k alriyadh_a.xml > EB.alriyadh
+mv emptyFiles.txt emptyFiles.alriyadh_a.txt
+java -Xmx1600m ExtractBody RAW_art_youm7.210k-285k youm7_a.xml > EB.youm7
+mv emptyFiles.txt emptyFiles.youm7_a.txt
+
+zip Extract_output.zip EC* EB* emptyFiles*
+
+tar czf RAW_comm+art_alghad.tgz RAW_comm+art_alghad.500k-534k
+tar czf RAW_art_alriyadh.tgz RAW_art_alriyadh.520k-565k
+tar czf RAW_art_youm7.tgz RAW_art_youm7.210k-285k
+tar czf RAW_comm_alriyadh.tgz RAW_comm_alriyadh.520k-565k
+tar czf RAW_comm_youm7.tgz RAW_comm_youm7.210k-285k
+
+

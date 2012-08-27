@@ -1,0 +1,223 @@
+Iraq	http://www.nsr313.com/home/
+Iraq	http://www.aknews.com/ar/
+Iraq	http://www.albadeal.com/
+Iraq	http://www.alefyaa.com/
+Iraq	http://furatnews.com/new1/index.php
+Iraq	http://www.alkadhum.org/ar/
+Iraq	http://www.daralhayat.com/
+Iraq	http://www.alkal3a.com/
+Iraq	http://www.almadapaper.net/
+Iraq	http://www.almannarah.com/
+Iraq	http://www.alrafidayn.com/
+Iraq	http://www.alsabaah.com/
+Iraq	http://www.awene.com/awene.aspx
+Iraq	http://www.azzaman.com/
+Iraq	http://www.zowaa.org/arabic.htm
+Iraq	http://www.basaernews.com/
+Iraq	http://www.daraddustour.com/
+Iraq	http://www.iraq4allnews.dk/
+Iraq	http://www.wifaq.com/
+Iraq	http://www.kitabat.com/
+Iraq	http://www.nahrain.com/
+Iraq	http://www.newsabah.com/
+Iraq	http://iraqiwriter.com/iraqiwriter/index.htm
+Iraq	http://www.sotaliraq.com/
+Iraq	http://www.qawim.org/
+Algeria	http://www.aps.dz/index-ar.php
+Algeria	http://www.ech-chaab.net/old/
+Algeria	http://www.elkhabarerriadhi.com/
+Algeria	http://www.elwatan.com/
+Egypt	http://www.ahlynews.com/
+Egypt	http://www.akhbarelyom.org.eg/
+Egypt	http://akhbarlive.com/
+Egypt	http://www.akhbarway.com/
+Egypt	http://www.al-ahaly.com/
+Egypt	http://gate.ahram.org.eg/
+Egypt	http://www.almasryalyoum.com/
+Egypt	http://www.almesryoon.com/
+Egypt	http://www.almessa.net.eg/
+Egypt	http://www.alnaharegypt.com/nhar/index.html
+Egypt	http://www.alnilin.com/
+Egypt	http://www.arabnet5.com/
+Egypt	http://www.shorouknews.com/
+Egypt	http://www.almasry-alyoum.com/
+Egypt	http://www.youm7.com/
+Egypt	http://www.arabnet5.com/
+Egypt	http://www.democraticfront.org/
+Egypt	http://elakhbar.akhbarway.com/
+Egypt	http://www.yallakora.com/arabic/
+Egypt	http://www.wataninet.com/
+Egypt	http://www.watan.com/
+Egypt	http://www.soutelomma.org/
+Egypt	http://www.masrawy.com/default.aspx
+Egypt	http://www.mena.org.eg/
+Egypt	http://www.misrnews.com/index.html
+Egypt	http://www.moheet.com/
+Egypt	http://www.elaosboa.com/
+Egypt	http://www.el-wasat.com/portal/index.html
+Egypt	http://www.gn4me.com/nahda/index.jsp
+Egypt	http://www.egynews.net/wps/portal/home
+Egypt	http://news.naseej.com/
+Egypt	http://www.rosaonline.net/default.asp
+Tunisia	http://3ichnews.eb2a.com/wp/
+Tunisia	http://www.akhbar.tn/
+Tunisia	http://www.albadil.org/
+Tunisia	http://www.alchourouk.com/
+Tunisia	http://www.tunisalwasat.com/
+Sudan	http://aljareeda-sd.net/ar/
+Sudan	http://almshaheer.com/news/
+Sudan	http://www.alnilin.com/
+Sudan	http://www.sudannewsnet.net/
+Sudan	http://www.sunanews.net/
+Sudan	http://sudansafari.net/
+Morocco	http://www.oujdatimes.com/
+Morocco	http://www.ahdath.info/
+Morocco	http://www.alalam.ma/def.asp?codelangue=23\&po=2
+Morocco	http://www.alkhabar.ma/
+Morocco	http://www.alittihad.press.ma/def.asp?codelangue=29\&po=2
+Morocco	http://www.almassae.press.ma/
+Morocco	http://www.almountakhab.com/
+Morocco	http://www.aljamaa.net/ar/index/index.shtml
+Morocco	http://www.annoukhba.com/
+Morocco	http://www.attajdid.info/def.asp?codelangue=6\&po=2
+Morocco	http://hespress.com/
+Morocco	http://www.hibapress.com/
+Morocco	http://www.map.ma/mapar
+Morocco	http://www.marocpost.net/arabic.cfm
+Morocco	http://www.minbarachaab.net/
+Morocco	http://oujda-portail.net/
+Morocco	http://www.4non.net/
+Yemen	http://www.almotamar.net/news/
+Yemen	http://www.al-tagheer.com/
+Yemen	http://www.al-teef.com/
+Yemen	http://hshd.net/
+Yemen	http://www.newsyemen.net/arnewsyemen.asp
+Yemen	http://www.raynews.net/
+Yemen	http://sahafah.net/
+Yemen	http://www.yemeneconomist.com/
+Yemen	http://www.sabanews.net/ar/
+Oman	http://alrroya.com/
+Oman	http://www.shabiba.com/
+Oman	http://www.azzamn.org/
+Oman	http://main.omandaily.om/
+United Arab Emirates	http://www.alkhaleej.ae/
+United Arab Emirates	http://www.almalnews.ae/
+Qatar	http://www.raya.com/site/topics/index.asp?cu_no=2\&temp_type=44
+Qatar	http://www.al-sharq.com/index.php?date=2011-09-02\&msg=msg_69
+Qatar	http://www.estad-aldoha.net/arabic/index.php?col=4
+Saudi Arabia	http://www.muslimworldleague.org/paper/1875/index.htm
+Saudi Arabia	http://www.akhbaralarab.net/
+Saudi Arabia	http://www.albiladdaily.net/
+Saudi Arabia	http://www.aleqt.com/
+Saudi Arabia	http://international.daralhayat.com/
+Saudi Arabia	http://aljamaheir.net/
+Saudi Arabia	http://www.al-madina.com/
+Saudi Arabia	http://www.majalla.com/arb/
+Saudi Arabia	http://www.almokhtsar.com/
+Saudi Arabia	http://www.al-nadi.com.sa/
+Saudi Arabia	http://www.alnadwah.com.sa/
+Saudi Arabia	http://www.aawsat.com/
+Saudi Arabia	http://www.altwafoq.net/
+Saudi Arabia	http://www.alyaum.com/News/index.php
+Saudi Arabia	http://www.uqn.gov.sa/Pages/Default.aspx/
+Saudi Arabia	http://www.arriyadh.com/ar/index.aspx
+Saudi Arabia	http://arriy.com/
+Saudi Arabia	http://www.bab.com/index3.cfm
+Saudi Arabia	http://www.e-mailaat.com/news.php?action=listnewsm\&id=1
+Saudi Arabia	http://www.elaph.com/
+Saudi Arabia	http://www.islammemo.cc/
+Saudi Arabia	http://www.kabar.ws/
+Saudi Arabia	http://www.majalla.com/arb/
+Saudi Arabia	http://www.masaary.com/
+Saudi Arabia	http://www.okaz.com.sa/new/Issues/20110902/index.htm
+Saudi Arabia	http://www.rasid.com/
+Saudi Arabia	http://www.sahafahonline.com/
+Saudi Arabia	http://www.saudielection.com/ar/index.php
+Saudi Arabia	http://saudiinfocus.com/ar/
+Saudi Arabia	http://www.news-sa.com/
+Saudi Arabia	http://www.sharq.cc/
+Saudi Arabia	http://www.sportksa.net/main/
+Kuwait	http://www.alaan.cc/
+Kuwait	http://www.alanba.com.kw/CustomCMS/
+Kuwait	http://www.aldaronline.com/Dar/
+Kuwait	http://www.alqabas.com.kw/
+Kuwait	http://www.alraimedia.com/Alrai/
+Kuwait	http://www.alsabahpress.com/spress/default.aspx
+Kuwait	http://www.alshahedkw.com/
+Kuwait	http://www.alwasat.com.kw/
+Kuwait	http://alwatan.kuwait.tt/
+Kuwait	http://www.alamalyawm.com/default2.aspx
+Kuwait	http://www.annaharkw.com/annahar/
+Kuwait	http://kuwaitchat.net/
+Kuwait	http://www.reqaba.com/default2.aspx?cid=-1
+Kuwait	http://www.zoomkw.com/mainU.cfm
+Palestine	http://www.al-ayyam.com/
+Palestine	http://www.aldaar.com/
+Palestine	http://www.alhayat-j.com/newsite/index.php
+Palestine	http://www.manar.com/
+Palestine	http://www.alsabar-mag.com/
+Palestine	http://amlalommah.net/new/
+Palestine	http://www.sawt-alhaq.com/web/pages/Category.aspx?Id=2
+Jordan	http://www.al-liwa.com/
+Jordan	http://www.3rbnews.net/
+Jordan	http://www.efranews.net/
+Jordan	http://www.petra.gov.jo/Public/Main_arabic.aspx?lang=1\&site_id=2
+Syria	http://www.albaath.news.sy/user/
+Syria	http://www.albaladonline.com/ar/Default.aspx?pageid=11730
+Syria	http://thawra.alwehda.gov.sy/
+Syria	http://www.alwatan.sy/
+Syria	http://www.asdaaalwatan.net/
+Syria	http://www.champress.net/
+Syria	http://www.fmsyria.com/
+Syria	http://www.kassioun.org/
+Syria	http://www.syria-news.com/
+Lebanon	http://www.14march.org/
+Lebanon	http://www.aldiyaronline.com/
+Lebanon	http://www.al-akhbar.com/
+Lebanon	http://www.al-aman.com/
+Lebanon	http://www.psp.org.lb/Default.aspx?tabid=98/
+Lebanon	http://www.alankabout.com/
+Lebanon	http://www.alanwar.com/
+Lebanon	http://www.albaladonline.com/ar/Default.aspx?pageid=11730
+Lebanon	http://www.albayanlebanon.com/
+Lebanon	http://www.al-binaa.com/newversion/
+Lebanon	http://www.al-hawadeth.com/
+Lebanon	http://www.daralhayat.com/
+Lebanon	http://www.al-inshaa.com/news.php
+Lebanon	http://www.aljoumhouria.com/
+Lebanon	http://www.alkalimaonline.com/
+Lebanon	http://www.kifaharabi.com/
+Lebanon	http://www.aliwaa.com/
+Lebanon	http://www.almanar.com.lb/main.php
+Lebanon	http://www.almarkazia.com/
+Lebanon	http://www.almassira.com/
+Lebanon	http://www.almoharrer.net/
+Lebanon	http://www.alnafeznews.com/main.php
+Lebanon	http://www.alrassedonline.com/
+Lebanon	http://www.alshiraa.com/
+Lebanon	http://www.al-waie.org/
+Lebanon	http://www.alwatanalarabi.com/arabi/
+Lebanon	http://www.lebaneseamericannews.com/
+Lebanon	http://annabaa.org/
+Lebanon	http://www.annahar.com/
+Lebanon	http://www.assafir.com/
+Lebanon	http://www.attakwa.net/
+Lebanon	http://www.attamaddon.com/_NewsSearch.php?\&cAction=Search\&IsFront=1
+Lebanon	http://www.almarkazia.net/
+Lebanon	http://www.echobeirut.com/
+Lebanon	http://en.elmarada.org/
+Lebanon	http://www.elnashra.com/
+Lebanon	http://www.elshark.com/
+Lebanon	http://www.kataeb.org/
+Lebanon	http://www.lbci.com/
+Lebanon	http://www.lebjournal.com/newz/
+Lebanon	http://www.lebanondebate.com/
+Lebanon	http://www.lebanonfiles.com/
+Lebanon	http://www.lebanese-forces.com/web/
+Lebanon	http://www.manartv.com.lb/main.php
+Lebanon	http://www.almoharrer.net/
+Lebanon	http://www.sahafioun.com/
+Lebanon	http://www.sidonianews.net/
+Lebanon	http://www.tahawolat.com/
+Lebanon	http://www.tayyar.org/tayyar
+Lebanon	http://www.youkal.net/
